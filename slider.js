@@ -3,7 +3,7 @@ const divSlide = document.querySelector(".slide img");
 const span = document.querySelector("span");
 
 let singleSlideTime = 10000;
-let singleLoopTime = 50000;
+let singleLoopTime = singleSlideTime * slidesImage.length;
 
 const slidesImage = [
   "CSS3logopng400.png",
